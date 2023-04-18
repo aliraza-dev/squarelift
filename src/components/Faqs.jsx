@@ -6,53 +6,20 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'How can a cloud consulting business help my business?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
-    },
-    {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
-    },
-    {
-      question: 'How do I apply for a job at TaxPal?',
-      answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'A cloud consulting business can help your business by providing expert advice and guidance on how to effectively leverage cloud technologies to achieve your business goals. This can include optimizing your cloud infrastructure to reduce costs, improving cloud security to protect your data, and implementing best practices for cloud governance and compliance.',
     },
   ],
-  [
-    {
-      question: 'What was that testimonial about tax fraud all about?',
-      answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
-    },
-    {
-      question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
-      answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
-    },
-    {
-      question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
-      answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
-    },
+  [{
+      question: 'How much does cloud consulting cost?',
+      answer: 'The cost of cloud consulting services can vary depending on the scope and complexity of the project. Some consultants may charge hourly rates, while others may charge a flat fee or a percentage of the total project cost. It\'s important to get a clear understanding of the pricing structure before engaging a cloud consultant.',
+    }
   ],
-  [
-    {
-      question: 'How do you generate reports?',
+    [{
+      question: 'How do I choose the right cloud provider for my business?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
-    },
-    {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
-    },
-    {
-      question: 'I lost my password, how do I get into my account?',
-      answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'Choosing the right cloud provider for your business can be a complex decision. A cloud consultant can help you evaluate the different cloud providers and select the one that best meets your needs based on factors such as cost, performance, scalability, and security.',
     },
   ],
 ]
