@@ -31,7 +31,9 @@ export function Hero() {
       Powerful, secure, and scalable cloud solutions to help you accelerate innovation and drive business growth.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Contact Us</Button>
+        <Button
+          href='mailto:alirazadev1@gmail.com'
+        >Contact Us</Button>
         {/* <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           variant="outline"

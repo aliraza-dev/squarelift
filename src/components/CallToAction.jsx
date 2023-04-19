@@ -21,10 +21,15 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Get started today
+            Who are we?
           </h2>
+          <h3 className='mt-4 text-lg tracking-tight text-white'>
+            We are <strong>Squarelift PVT ltd.</strong>
+          </h3>
           <p className="mt-4 text-lg tracking-tight text-white">
-            It’s time to move to the cloud and get benefits from extra security, scalability and better uptime and free yourself from worries of managing your infrastructure.
+          Squarelift is cloud solution providing agency with its physical location in Islamabad, Pakistan. 
+          The company provides cloud and software related solutions using various service providers such as <strong>AWS</strong>, <strong>Azure</strong>, <strong>GCP</strong> and numerous shared hosting platforms.
+          We have vast experience spaning over six years with <strong>Dockers,</strong> <strong>Kubernetes</strong>, and <strong>Teraform</strong> etc
           </p>
           {/* <Button href="/register" color="white" className="mt-10">
             Get 6 months free
