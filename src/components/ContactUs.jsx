@@ -4,10 +4,10 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-call-to-action.jpg'
 
-export function CallToAction() {
+export function Contactus() {
   return (
     <section
-      id="get-started-today"
+      id="contact-us-page"
       className="relative overflow-hidden bg-blue-600 py-32"
     >
       <Image
@@ -21,19 +21,14 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Who are we?
+            Contact Us
           </h2>
-          <h3 className='mt-4 text-lg tracking-tight text-white'>
-            We are <strong>Squarelift PVT ltd.</strong>
-          </h3>
           <p className="mt-4 text-lg tracking-tight text-white">
-          <strong>Squarelift</strong> is cloud solution providing agency with its physical location in Islamabad, Pakistan. 
-          The company provides cloud and software related solutions using various service providers such as <strong>AWS</strong>, <strong>Azure</strong>, <strong>GCP</strong> and numerous shared hosting platforms.
-          We have vast experience spaning over six years with <strong>Dockers,</strong> <strong>Kubernetes</strong>, and <strong>Teraform</strong> etc
+            <strong>Ali Raza - CEO</strong>
           </p>
-          {/* <Button href="/register" color="white" className="mt-10">
-            Get 6 months free
-          </Button> */}
+          <Button href="mailto:alirazadev1@gmail.com" color="white" className="mt-10">
+            alirazadev1@gmail.com
+          </Button>
         </div>
       </Container>
     </section>

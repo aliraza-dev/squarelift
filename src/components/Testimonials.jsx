@@ -11,19 +11,19 @@ const testimonials = [
   [
     {
       content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'The seller is very professional diligent in his work communicate perfectly for you to the the message i will recommend him to any one who needs help in his area of gig. He is also very humble and always reply your message on time.',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
+        name: 'Sandra Lilly',
+        role: 'Client - Switzerland',
         image: avatarImage1,
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        'Amazing - went above and beyond the API / Lambda function I asked for and ensured it was all working perfectly.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Gluzio',
+        role: 'Client - UK',
         image: avatarImage4,
       },
     },
@@ -31,19 +31,19 @@ const testimonials = [
   [
     {
       content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+        'Communction was very easy and extremely easy to work with! Loved the work! HIGHLY RECOMMENDED! the seller knew exactly what he was doing. i would surely disturb this guy in the future again.',
       author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
+        name: 'Muhammed Kumail',
+        role: 'Client - Pakistan',
         image: avatarImage5,
       },
     },
     {
       content:
-        'There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.',
+        'Seller knows the tech well and found the issue quite quickly. Hiring him for more in near future!',
       author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
+        name: 'Meesum Abbas',
+        role: 'Client - UAE',
         image: avatarImage2,
       },
     },
@@ -51,22 +51,13 @@ const testimonials = [
   [
     {
       content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        'Really helpful and knowledge, Hassan helped me out with AWS and development configurations, which really help me unblock certain issues. Communication was a breeze and he also responded really fast, I highly recommend and will definitely reach out to him again when I have more AWS needs :)',
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
+        name: 'Phellipeperin',
+        role: 'Client - Germany',
         image: avatarImage3,
       },
-    },
-    {
-      content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
-      author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
-      },
-    },
+    }
   ],
 ]
 
@@ -90,11 +81,9 @@ export function Testimonials() {
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
             Loved by businesses worldwide.
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
-          </p>
+          {/* <p className="mt-4 text-lg tracking-tight text-slate-700">
+            We've been working with a lot of clients and our 
+          </p> */}
         </div>
         <ul
           role="list"
@@ -121,7 +110,7 @@ export function Testimonials() {
                             {testimonial.author.role}
                           </div>
                         </div>
-                        <div className="overflow-hidden rounded-full bg-slate-50">
+                        {/* <div className="overflow-hidden rounded-full bg-slate-50">
                           <Image
                             className="h-14 w-14 object-cover"
                             src={testimonial.author.image}
@@ -129,7 +118,7 @@ export function Testimonials() {
                             width={56}
                             height={56}
                           />
-                        </div>
+                        </div> */}
                       </figcaption>
                     </figure>
                   </li>

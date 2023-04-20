@@ -118,7 +118,7 @@ export function Pricing() {
             name="Starter"
             price="$83.30"
             description="I will fix minor issues of your business model over AWS and proving technical support"
-            href="/register"
+            href="#contact-us-page"
             features={[
               '2 Days Delivery',
               '15 minutes live consultation',
@@ -131,7 +131,7 @@ export function Pricing() {
             name="Small business"
             price="$187.42"
             description="Suitable for complex issues, system design, implementation, cost reduction and performance boost"
-            href="/register"
+            href="#contact-us-page"
             features={[
               '5 Days Delivery',
               '30 minutes live consultation',
@@ -144,7 +144,7 @@ export function Pricing() {
             name="Enterprise"
             price="$312.96"
             description="Suitable for complex issues, building things from scratch and dealing with complex issues"
-            href="/register"
+            href="#contact-us-page"
             features={[
               'Suitable for complex issues, building things from scratch and dealing with complex issues',
               '45 minutes live consultation',
